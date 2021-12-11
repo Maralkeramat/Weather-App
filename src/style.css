@@ -1,119 +1,99 @@
 body {
-  background: radial-gradient(
+      background: radial-gradient(
     592px at 48.2% 50%,
     rgba(255, 255, 249, 0.6) 0%,
     rgb(160, 199, 254) 74.6%
   );
+  font-family: arial, sans-serif;
+}
 
-  display: block;
-  margin: 8px;
-  font-family: "Open Sans", sans-serif;
-}
-.container {
-  background-color: #ffffff;
-  max-width: 600px;
-  max-height: 820px;
-  margin: 4px auto;
-  padding: 16px 50px;
-  border-radius: 8px;
-}
-.first {
-  display: block;
-  margin: 0 auto;
-  width: 360px px;
-}
-.search {
-  width: 332px;
-  border-radius: 4px;
-  border-color: #d6d5d5;
-  border: solid 1px;
-  font-family: "Open Sans", sans-serif;
-  height: 32px;
-}
-.submit {
-  background-color: #235784;
-  border-radius: 4px;
-  font-family: "Open Sans", sans-serif;
-  border: none;
-  font-size: 16px;
-  color: rgb(255, 255, 255);
-  padding: 4px 12px;
-  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
-  transition: all 200ms ease-in-out;
-}
-.submit:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-.Update {
-  border-radius: 4px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  color: #235784;
-  border-color: #235784;
-  padding: 3px 12px;
-  border: solid 1px;
-  background-color: white;
-  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
-  transition: all 200ms ease-in-out;
-}
-.Update:hover {
-  opacity: 0.8;
-  cursor: pointer;
-  color: #235784;
-}
-.second {
-  display: block;
-  margin-left: 220px;
-  width: 120px;
-}
 h1 {
-  font-weight: 120px;
-  font-size: 20px;
-}
-h2 {
-  text-align: center;
-  display: inline;
-  position: absolute;
-  margin-left: 120px;
-  margin-top: -78px;
-  color: #235784;
-  font-weight: 300px;
-}
-
-.fa-cloud-sun {
-  color: #8ea6b4;
-}
-.fa-sun {
-  color: #8ea6b4;
-}
-.fourth-row {
-  font-size: 14px;
-  color: #393e46;
-}
-.third-row {
-  font-size: 16px;
-  color: #393e46;
-  font-weight: 400px;
-}
-.weekdays {
-  margin-left: 34px;
-}
-h5 {
+  color: black;
   font-size: 24px;
-  font-weight: 500px;
-  color: black;
-  font-weight: 400px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
 }
-.col-tehran {
-  color: #235784;
-}
-h6 {
-  font-size: 14px;
-  color: black;
-}
-.centered {
-  text-align: center;
-  color: blueviolet;
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: white;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
